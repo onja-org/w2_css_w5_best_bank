@@ -1,0 +1,92 @@
+/*
+COLOR PALETTE
+
+BLACK: #000000
+
+WHITE: #FFFFFF
+LIGHT: #FDF7F4
+
+ORANGE: #FFD18C
+DARK ORANGE: #FFA724
+*/
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fdf7f4;
+  color: #000;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header img {
+  height: 60px;
+}
+
+nav {
+  background-color: #ffd18c;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+nav li {
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+nav .active {
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.actions button {
+  padding: 0.75rem 2rem;
+  border: 3px solid #ffa724;
+  border-radius: 999px;
+  background: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accounts {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.accounts h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.account {
+  border: 3px solid #ffa724;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  background: white;
+}
+
+.account.main {
+  background: #ffd18c;
+}

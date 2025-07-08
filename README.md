@@ -2,7 +2,7 @@
 
 Welcome to BestBank. We’re modern, we’re clean.
 
-In this lab, you're going to **build a simple bank dashboard** using only HTML and CSS. No JavaScript. No frameworks. Just you, the DOM, and a dream.
+In this lab, you're going to **build a simple bank dashboard** using only HTML and CSS. No JavaScript. No frameworks. Just you, the DOM, and a dream. 
 
 ---
 
@@ -94,7 +94,7 @@ npm run test
 
 Ask yourself:
 
-- Does it look like the mockup?
+- Does it look like the mockup? Try to make it as close as possible to the design.
 
 - Are you proud enough to show your fake bank to your real friends?
 
